@@ -2,7 +2,9 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 #
 # Once per clone:  pip install pre-commit && pre-commit install
-# Whole repo:      pre-commit run --all-files
+# All files:       pre-commit run --all-files
+#                  (the gitleaks hook only scans staged changes, even here)
+# Full history:    gitleaks git -v .  (CI: .github/workflows/checks.yml)
 # Newer versions:  pre-commit autoupdate --freeze
 
 repos:

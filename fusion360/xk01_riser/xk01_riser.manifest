@@ -1,0 +1,10 @@
+{
+	"autodeskProduct": "Fusion360",
+	"type": "script",
+	"author": "Joost Meyfroodt",
+	"description": {
+		"": "Driedelige nestbare verhoging voor het ProtoArc XK01 toetsenbord"
+	},
+	"supportedOS": "windows|mac",
+	"editEnabled": true
+}
